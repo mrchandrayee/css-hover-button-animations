@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090a0f">
+  <title>CSS Hover Button Animations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <span class="eyebrow">PURE CSS INTERACTIONS</span>
+      <h1>CSS Hover Button<br>Animations</h1>
+    </header>
+
+    <section class="showcase" aria-label="CSS hover button animation showcase">
+      <div class="preview-column">
+        <div class="animation-number" id="animationNumber">ANIMATION 03</div>
+        <h2 id="animationTitle">Liquid Morph</h2>
+
+        <div class="preview-card">
+          <button class="demo-button btn-liquid" id="demoButton" type="button">
+            <span class="button-label">Hover Me</span>
+            <span class="button-alt" aria-hidden="true">Nice!</span>
+          </button>
+        </div>
+
+        <div class="controls">
+          <button type="button" id="previousButton" class="nav-button" aria-label="Previous animation">←</button>
+          <div class="dots" id="dots" aria-label="Choose animation"></div>
+          <button type="button" id="nextButton" class="nav-button" aria-label="Next animation">→</button>
+        </div>
+        <p class="interaction-hint">Hover the button to preview the effect</p>
+      </div>
+
+      <div class="code-column">
+        <div class="code-heading">
+          <span>CSS SOURCE</span>
+          <button id="copyButton" type="button">Copy CSS</button>
+        </div>
+        <pre><code id="codeOutput"></code></pre>
+      </div>
+
+      <div class="comment-tag">Comment "Button" for code</div>
+    </section>
+
+    <footer class="footer">
+      <span>8 INTERACTIONS</span>
+      <span>HTML · CSS · JAVASCRIPT</span>
+      <span>NO LIBRARIES REQUIRED</span>
+    </footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
